@@ -30,7 +30,7 @@ This script demonstrates how to use PBKDF2 with the provided password and salt t
 
    ```bash
    $ python3 verify_password.py -p admin -g 59acf18b94d7eb0694c61e60ce44c110c7a683ac6a8f09580d626f90f4a242000746579358d77dd9e570e83fa24faa88a8a6 -s F3FAxVm33R
-   OH YEAH!
+   OH YEAH! admin is the password.
    ```
 
 ## Notes
