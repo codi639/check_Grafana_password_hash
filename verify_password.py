@@ -38,7 +38,7 @@ is_match = hashed_password == given_hash
 
 # Print the result
 if is_match:
-    print("OH YEAH!\n")
+    print(f"OH YEAH! {password} is the password.\n")
 #   print("Password is correct and matches the given hash and salt.")
 else:
     print("NOTHING'S GOOD, FAILURE IS THE ONLY SOLUTION.\n")
