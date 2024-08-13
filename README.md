@@ -2,6 +2,8 @@
 
 Welcome to the Password Hash Verification Script! This Python tool helps you check if a given password matches a hash stored in a Grafana `.db` file. Think of it as your trusty sidekick in the world of password security.
 
+**Notes:** This is script is basically useless, I just build it to understand how Grafana works...
+
 ## Purpose
 
 Grafana uses PBKDF2 with HMAC-SHA-256 to hash passwords, ensuring that even if someone intercepts the hash, it’s tough to crack. When a user changes their password, Grafana generates a random salt (not the kind you sprinkle on your food) and combines it with the password to create a hash. This script allows you to verify if the password matches the hash by replicating this process.
